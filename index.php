@@ -107,7 +107,7 @@ body:before {
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   font-family: 'Orbitron', sans-serif;
 }
-.lf--submit:focus {
+.lf--submit: {
   outline: none;
   transition: transform 0.15s ease;
   transform: scale(1.1);
