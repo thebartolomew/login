@@ -88,7 +88,7 @@ body:before {
   color: #8f8f8f;
   font-size: 1rem;
 }
-.lf--input:focus {
+.lf--input:{
   outline: none;
   transition: transform 0.15s ease;
   transform: scale(1.1);
@@ -164,6 +164,6 @@ body:before {
       <input id="password" class='lf--input' placeholder='Password' type='password'>
     </div>
      
-    <button onclick="location.href = 'https://zxcghoul.herokuapp.com/';">Login</button>
+    <input class="if--submit" type="submit" value="Login">
 
   <a class='lf--forgot' href='#'>Forgot password?</a>
