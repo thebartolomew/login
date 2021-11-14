@@ -141,9 +141,8 @@ body:before {
 }
 </style>
 
-<body>
-<div class="tosee"> 
-  <h1>Log in</h1>    
+<body><div class="tosee"> 
+<h1>Log in</h1>    
 </div>
 <form class="login-form">
     <div class="flex-row">
@@ -162,9 +161,10 @@ body:before {
           </g>
         </svg>
       </label>
-      <input type="submit" value="Login" class="lf--submit">
       <input id="password" class="lf--input" placeholder="Password" type="password">
     </div>
-  </body>
-  </html>
+    
+    <input type="submit" value="Login" class="lf--submit">
 
+  <a class="lf--forgot" href="#">Forgot password?</a>
+  </form></body></html>
