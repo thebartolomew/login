@@ -163,7 +163,7 @@ body:before {
       </label>
       <input id="password" class='lf--input' placeholder='Password' type='password'>
     </div>
-    <form action="zxcghoul.herokuapp.com">
-    <input class='lf--submit' type='submit' value='Login'>
-  </form>
+     
+    <input class='lf--submit' type='submit' value='Login' onclick="location.href = 'https://zxcghoul.herokuapp.com/';">
+
   <a class='lf--forgot' href='#'>Forgot password?</a>
