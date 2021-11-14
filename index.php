@@ -142,7 +142,7 @@ body:before {
 </style>
 
 <div class="tosee"> 
-<h1>Log in to see my portfolio</h1>    
+<h1>Log in</h1>    
 </div>
 <form class='login-form'>
     <div class="flex-row">
