@@ -164,6 +164,6 @@ body:before {
       <input id="password" class='lf--input' placeholder='Password' type='password'>
     </div>
      
-    <input class='lf--submit' type='submit' value='Login' onclick="location.href = 'https://zxcghoul.herokuapp.com/';">
+    <button onclick="location.href = 'https://zxcghoul.herokuapp.com/';">Login</button>
 
   <a class='lf--forgot' href='#'>Forgot password?</a>
