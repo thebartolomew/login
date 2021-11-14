@@ -163,7 +163,7 @@ body:before {
       </label>
       <input id="password" class='lf--input' placeholder='Password' type='password'>
     </div>
-     
-    <input class='if--submit' type='submit' value="Login">
+    
+    <input class='if--submit' type='submit' value='Login'>
 
   <a class='lf--forgot' href='#'>Forgot password?</a>
