@@ -113,6 +113,18 @@ body {
     color: rgb(255, 255, 255);
     font-family: 'Orbitron', sans-serif;
 }
+  body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url(https://images7.alphacoders.com/100/1000838.jpg);
+    opacity: 0.3;}
 
  
 </style>
