@@ -34,15 +34,7 @@ body {
   padding: 0;
   position: relative;
 }
-.login-form:before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background: linear-gradient(to right, #35c3c1, #00d6b7);
-}
+
 @media screen and (min-width: 600px) {
   .login-form {
     width: 50vw;
