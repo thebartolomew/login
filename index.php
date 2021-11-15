@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Temirlan</title>
-<link rel="icon" href="https://i.imgur.com/KHRebZ8.png">
+<link rel="icon" href="https://www.pngfind.com/pngs/m/367-3678768_ren-anime-otaku-kawaii-cute-yaoi-ren-anime.png">
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -11,19 +11,16 @@
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
 html,
 body {
   height: 100%;
 }
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
-
   background: linear-gradient(135deg, rgba(36, 46, 77, 0.9), rgba(137, 126, 121, 0.9));
   font-family: 'Orbitron', sans-serif;
   font-size: 1.5em;
@@ -44,7 +41,6 @@ body:before {
   background-image: url(https://images7.alphacoders.com/100/1000838.jpg);
   opacity: 0.3;
 }
-
 .login-form {
   width: 100%;
   padding: 2em;
@@ -66,12 +62,10 @@ body:before {
     max-width: 15em;
   }
 }
-
 .flex-row {
   display: flex;
   margin-bottom: 1em;
 }
-
 .lf--label {
   width: 2em;
   display: flex;
@@ -80,7 +74,6 @@ body:before {
   background: #f5f6f8;
   cursor: pointer;
 }
-
 .lf--input {
   flex: 1;
   padding: 1em;
@@ -93,7 +86,6 @@ body:before {
   transition: transform 0.15s ease;
   transform: scale(1.1);
 }
-
 .lf--submit {
   display: block;
   padding: 1em;
@@ -112,7 +104,6 @@ body:before {
   transition: transform 0.15s ease;
   transform: scale(1.1);
 }
-
 .lf--forgot {
   margin-top: 1em;
   color: #00d6b7;
@@ -120,25 +111,23 @@ body:before {
   text-align: center;
   position: relative;
 }
-
 ::-moz-placeholder {
   color: #8f8f8f;
 }
-
 :-ms-input-placeholder {
   color: #8f8f8f;
 }
-
 ::placeholder {
   color: #8f8f8f;
 }
-
 .tosee{
     position:relative;
     margin-top:10px;
     color: rgb(255, 255, 255);
     font-family: 'Orbitron', sans-serif;
 }
+
+ 
 </style>
 
 <body><div class="tosee"> 
@@ -164,7 +153,20 @@ body:before {
       <input id="password" class="lf--input" placeholder="Password" type="password">
     </div>
     
-    <input type="submit" value="Login" class="lf--submit">
-
+    <input type="submit" value="Login" class="lf--submit" onclick="login()">
   <a class="lf--forgot" href="#">Forgot password?</a>
+
+<script>
+  function login(){
+    console.log("Submit")
+    username = document.getElementById("username");
+    password = document.getElementById('password');
+    if(username.value == "lunat" && password.value == "12345"){
+      console.log("Correct username and password");
+      window.location.replace("zxcghoul.herokuapp.com");
+    }
+  }
+</script>
+  
+  
   </form></body></html>
