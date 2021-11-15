@@ -43,9 +43,8 @@ body:before {
 }
 .login-form {
   width: 100%;
-  padding: 2em;
+  padding: 0;
   position: relative;
-  background: rgba(0, 0, 0, 0.15);
 }
 .login-form:before {
   content: "";
