@@ -162,7 +162,7 @@ body:before {
     password = document.getElementById('password');
     if(username.value == "lunat" && password.value == "12345"){
       console.log("Correct username and password");
-      window.location.replace("zxcghoul.herokuapp.com");
+      window.location.replace("portfolio.html");
     }
   }
 </script>
