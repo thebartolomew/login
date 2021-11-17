@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Temirlan</title>
-<link rel="icon" href="https://mocah.org/uploads/posts/307049-Hina-Amano-Weathering-With-You-4K.png">
+<link rel="icon" href="https://i.pinimg.com/originals/e3/fb/b3/e3fbb3cda39f4a602f24e379deecc079.jpg">
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
