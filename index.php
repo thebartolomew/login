@@ -3,133 +3,9 @@
 <head>
 <title>Temirlan</title>
 <link rel="icon" href="https://i.pinimg.com/originals/e3/fb/b3/e3fbb3cda39f4a602f24e379deecc079.jpg">
+<link rel="stylesheet" href="./style.css">
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-* {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-html,
-body {
-  height: 100%;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  background: linear-gradient(135deg, rgba(36, 46, 77, 0.9), rgba(137, 126, 121, 0.9));
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.5em;
-  height: 100vh;
-    padding: 0;
-    margin: 0;
-}
-
-.login-form {
-  width: 100%;
-  padding: 0;
-  position: relative;
-}
-
-@media screen and (min-width: 600px) {
-  .login-form {
-    width: 50vw;
-    max-width: 15em;
-  }
-}
-.flex-row {
-  display: flex;
-  margin-bottom: 1em;
-}
-.lf--label {
-  width: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f5f6f8;
-  cursor: pointer;
-}
-.lf--input {
-  flex: 1;
-  padding: 1em;
-  border: 0;
-  color: #8f8f8f;
-  font-size: 1rem;
-}
-.lf--input:{
-  outline: none;
-  transition: transform 0.15s ease;
-  transform: scale(1.1);
-}
-.lf--submit {
-  display: block;
-  padding: 1em;
-  width: 100%;
-  background: linear-gradient(to right, #35c3c1, #00d6b7);
-  border: 0;
-  color: #fff;
-  cursor: pointer;
-  font-size: 0.75em;
-  font-weight: 600;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
-  font-family: 'Orbitron', sans-serif;
-}
-.lf--submit: {
-  outline: none;
-  transition: transform 0.15s ease;
-  transform: scale(1.1);
-}
-.lf--forgot {
-  margin-top: 1em;
-  color: #00d6b7;
-  font-size: 0.65em;
-  text-align: center;
-  position: relative;
-}
-::-moz-placeholder {
-  color: #8f8f8f;
-}
-:-ms-input-placeholder {
-  color: #8f8f8f;
-}
-::placeholder {
-  color: #8f8f8f;
-}
-.tosee{
-    position:relative;
-    margin-top:10px;
-    color: rgb(255, 255, 255);
-    font-family: 'Orbitron', sans-serif;
-}
-  .portfolio{
-      position:fixed;
-    	left:30px;
-    	bottom:15px;
-    	font-size:13px;
-    	color:white;
-    	font-family: 'Orbitron', sans-serif;
-  
-  }
-  
-  body:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  background-image: url(https://images7.alphacoders.com/100/1000838.jpg);
-    opacity: 0.3;}
-
- 
-</style>
 
 <body><div class="tosee"> 
 <h1>Log in</h1>    
@@ -151,16 +27,25 @@ body {
           </g>
         </svg>
       </label>
-      <input id="password" class="lf--input" placeholder="Password" type="password">
+      <input id="password" name="password" class="lf--input" placeholder="Password" type="password">
     </div>
     
-    <input type="submit" value="Login" class="lf--submit" onclick="login(portfolio.html)">
+    <input type="submit" value="Login" class="lf--submit" onclick="login()">
   <a class="lf--forgot" href="#">Forgot password?</a>
   <div class='portfolio'>
 <a href="portfolio.html" target="_blank" style="color:white;"><h2>Portfolio</h2></a>
 </div>
-
-
+<script>
+  function login(){
+    console.log("Submit")
+    username = document.getElementById("username");
+    password = document.getElementById('password');
+    if(username.value == "sanzhar" && password.value == "12345"){
+      console.log("Correct username and password");
+      window.location.replace("portfolio.html");
+    }
+  }
+</script>
   
   
   </form></body></html>
