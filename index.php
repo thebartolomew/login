@@ -30,7 +30,7 @@
       <input id="password" name="password" class="lf--input" placeholder="Password" type="password">
     </div>
     
-    <input type="submit" value="Login" class="lf--submit" onclick="login()">
+    <input type="submit" value="log in" class="lf--submit" onclick="login()">
   <a class="lf--forgot" href="#">Forgot password?</a>
   <div class='portfolio'>
 <a href="portfolio.html" target="_blank" style="color:white;"><h2>Portfolio</h2></a>
