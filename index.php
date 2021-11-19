@@ -36,7 +36,7 @@
 <a href="portfolio" style="color:white;"><h2>Portfolio</h2></a>
 </div>
 <div class='portfolio'>
-<a href="anime girls" style="color:white;"><h2>Anime girls<h2></a>
+<a href="anime girls" style="color:white;"><h3>Anime girls<h3></a>
 </div>
 <script>
   function login(){
