@@ -130,3 +130,20 @@ form ion-icon {
     grid-gap: 30px;
   }
 }
+.portfolio{
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  font-size: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+ }
+.ani{
+  position: fixed;
+  left: 110px;
+  top: 20px;
+  font-size: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  
+}
