@@ -78,7 +78,7 @@ button{
     margin-left: 40px;
     margin-top: 20px;
     font-size: large; }
-</style
+</style>
 
 <body class="fadeIn">
 <a href="index.php"><button>Home</button></a>
