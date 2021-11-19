@@ -55,7 +55,12 @@
       </div>
     </div>
   </section>
-
+  <div class='portfolio'>
+  <a href="index.php" style="color:black"><h10>Home</h10></a>
+  </div>
+  <div class="ani">
+  <a href="portfolio" style="color:black"><h11>Portfolio<h11></a>
+  </div>
 </body>
 
 </html>
