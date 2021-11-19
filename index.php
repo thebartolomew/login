@@ -176,7 +176,7 @@
 <a href="anime girls" style="color:white;"><h3>Anime girls<h3></a>
 </div>
 <script>
-    const data = {name: "Termirlan", password: "5555"}
+    const data = {name: "tima", password: "555"}
 
     var form = document.getElementById("form");
     form.addEventListener('submit', function(e){
