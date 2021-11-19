@@ -35,7 +35,7 @@
   <div class='portfolio'>
 <a href="portfolio" style="color:white;"><h2>Portfolio</h2></a>
 </div>
-<div class='portfolio'>
+<div class="ani">
 <a href="anime girls" style="color:white;"><h3>Anime girls<h3></a>
 </div>
 <script>
