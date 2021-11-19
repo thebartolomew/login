@@ -64,7 +64,15 @@ button{
     overflow: hidden;
 
 }
- 
+.contact{
+  position:fixed;
+    left:600px;
+    bottom:25px;
+    font-size:10px;
+    color:white;
+
+
+}
 </style>
 
 <body class="fadeIn">
@@ -87,5 +95,10 @@ button{
 <a href="https://steamcommunity.com/id/lunat1kcs/" target="_blank" style="color:white">Steam</a> |
 <a href="https://www.faceit.com/ru/players/lunatikk_" target="_blank" style="color:white">Fc</a> |
 <a href="https://www.twitch.tv/lunat1kcs" target="_blank" style="color:white">Twitch</a>
+</div>
+<div class="contact">
+  <p>Address: 75 Okehampton Rd</p>
+  <p>Phone number: +996550697694</p>
+
 </div>
 </body></html>
