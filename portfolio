@@ -81,8 +81,8 @@ button{
 </style
 
 <body class="fadeIn">
-<a href="index.php"><button class="btn">Home</button></a>
-<a href="anime girls"><button>Anime girls</button></a>
+<a href="index.php"><button>Home</button></a>
+<a href="anime girls"><button class="btn">Anime girls</button></a>
 <div class="g-o">
 <div class="center">
 <div class="white">
