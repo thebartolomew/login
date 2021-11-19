@@ -43,7 +43,7 @@
     console.log("Submit")
     username = document.getElementById("username");
     password = document.getElementById('password');
-    if(username.value == "sanzhar" && password.value == "12345"){
+    if(username.value == "tima" && password.value == "555"){
       console.log("Correct username and password");
       window.location.replace("portfolio");
     }
