@@ -49,40 +49,29 @@ font-size:20px;
     -webkit-animation-fill-mode:both;
     animation-fill-mode:both
 }
-button{
+.knopki{
     color:white;
-    position:fixed;
-    cursor: pointer;
-    border: none;
-    display: block;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
     margin-left: 10px;
     margin-top: 20px;
     font-size: large; 
     }
- .btn{ 
+button{
     color:white;
-    position:fixed;
-    cursor: pointer;
-    border: none;
-    display: block;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
-    margin-left: 80px;
-    margin-top: 20px;
-    font-size: large; }
+
+}
+ 
 </style>
 
 <body class="fadeIn">
-<a href="index.php"><button>Home</button></a>
+<div class="knopki">
+<a href="index.php"><button>Home</button></a> |
 <a href="anime girls"><button class="btn">Anime girls</button></a>
+</div>
 <div class="g-o">
 <div class="center">
 <div class="white">
