@@ -33,7 +33,7 @@
     <input type="submit" value="LOGIN" class="lf--submit" onclick="login()">
   <a class="lf--forgot" href="https://www.google.com/search?q=how+to+remember+password&oq=how+to+remember+password&aqs=chrome..69i57j0i512l7j0i22i30l2.8985j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Forgot password?</a>
   <div class='portfolio'>
-<a href="portfolio.html" style="color:white;"><h2>Portfolio</h2></a>
+<a href="portfolio" style="color:white;"><h2>Portfolio</h2></a>
 </div>
 <script>
   function login(){
@@ -42,7 +42,7 @@
     password = document.getElementById('password');
     if(username.value == "sanzhar" && password.value == "12345"){
       console.log("Correct username and password");
-      window.location.replace("portfolio.html");
+      window.location.replace("portfolio");
     }
   }
 </script>
