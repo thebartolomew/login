@@ -75,7 +75,7 @@ button{
     border: none;
     cursor:pointer;
     overflow: hidden;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 20px;
     font-size: large; }
 </style>
