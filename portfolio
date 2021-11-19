@@ -63,13 +63,25 @@ button{
     margin-left: 10px;
     margin-top: 20px;
     font-size: large; 
-    
-
-}
+    }
+ .btn{ 
+    color:white;
+    position:fixed;
+    cursor: pointer;
+    border: none;
+    display: block;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: large; }
 </style
 
 <body class="fadeIn">
-<a href="index.php"><button>Home</button></a>
+<a href="index.php"><button class="btn">Home</button></a>
 <a href="anime girls"><button>Anime girls</button></a>
 <div class="g-o">
 <div class="center">
