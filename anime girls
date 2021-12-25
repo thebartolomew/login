@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anime girls</title>
+  <title>Anime</title>
   <link rel="stylesheet" href="./style2.css">
   <link rel="icon" href="http://sun9-63.userapi.com/s/v1/ig2/xOflhYJZFsTXkkApzLQ9C-M66BOmNgfwpWQQ3v-3MGHLTRkWJv6tFXbNuzcGQDdubdyjcsiTCJwX9cWWfXJ_U-JH.jpg?size=200x200&quality=96&crop=92,0,692,692&ava=1">
 </head>
@@ -13,7 +13,7 @@
   <section>
     <div class="container">
       <div class="header">
-        <h1 class="logo">Anime girls</h1>
+        <h1 class="logo">Anime characters gallery</h1>
       </div>
       <div class="gallery">
         <div class="item">
@@ -36,7 +36,7 @@
         </div>
         <div class="item">
           
-            <img src="https://i.pinimg.com/originals/26/77/81/2677816e220c28c789106cecbb3ecb27.jpg" alt="image">
+            <img src="https://spoilerguy.com/wp-content/uploads/2020/10/b8c3bc414ede4e2f048e7e3f50811a6b1600593791_main.jpg" alt="image">
             <h3>Yuzaki Tsukasa</h3>
           
         </div>
@@ -52,15 +52,51 @@
             <h3>Kanao Tsuyuri</h3>
           
         </div>
+        <div class="item">
+          
+            <img src="https://cdn.wallpapersafari.com/31/16/chr8k1.png" alt="image">
+            <h3>Aoyama Nanami</h3>
+          
+        </div>
+        <div class="item">
+          
+            <img src="http://pm1.narvii.com/7453/998dfbadea62e78dd296a336aef91fc9081c2bbar1-427-419v2_00.jpg" alt="image">
+            <h3>Tamayo-sama</h3>
+          
+        </div>
+        <div class="item">
+          
+            <img src="https://i.pinimg.com/originals/7d/7c/bb/7d7cbbe6146dda3917276a3b78c39639.jpg" alt="image">
+            <h3>Petra Ral</h3>
+          
+        </div>
+        <div class="item">
+          
+            <img src="https://img.anime2you.de/2021/10/yukino-blush.jpg" alt="image">
+            <h3>Yukino Yukinoshita</h3>
+          
+        </div>
+        <div class="item">
+          
+            <img src="https://i.pinimg.com/originals/d4/da/0f/d4da0f16dd502d4b27b5ffb46574230d.jpg" alt="image">
+            <h3>Mitsuha Miyamizu</h3>
+          
+        </div>
+        <div class="item">
+          
+            <img src="https://i.pinimg.com/originals/6f/43/be/6f43beef4c23ece025ed9b4a546f6d70.jpg" alt="image">
+            <h3>Hina Amano</h3>
+          
+        </div>
       </div>
     </div>
   </section>
   <div class='portfolio'>
   <a href="index.php" style="color:black"><h10>Home</h10></a>
-  </div>
-  <div class="ani">
   <a href="portfolio" style="color:black"><h11>Portfolio<h11></a>
   </div>
+  <a href="https://www.faceit.com/ru/players/VeX5360" target="_blank"><button>Thawne</button></a>
+  <a href="https://youtube.com/" target="_blank" id="button">LUNATIK</a>
 </body>
 
 </html>
