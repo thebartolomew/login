@@ -103,23 +103,6 @@
             font-family: 'Orbitron', sans-serif;
             }
 
-        .portfolio{
-        position: fixed;
-        left: 20px;
-        bottom:25px;
-        font-size: 13px;
-        color: white;
-        font-family: 'Orbitron', sans-serif;
-        }
-        .ani{
-        position: fixed;
-        left: 140px;
-        bottom:22px;
-        font-size: 16px;
-        color: white;
-        font-family: 'Orbitron', sans-serif;
-        }
-
         body:before {
         content: "";
         position: absolute;
