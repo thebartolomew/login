@@ -150,14 +150,8 @@
     </div>
     
     <button type="submit" class="lf--submit">LOGIN</button>
-    <a class="lf--forgot" href="https://www.google.com/search?q=how+to+remember+password&oq=how+to+remember+password&aqs=chrome..69i57j0i512l7j0i22i30l2.8985j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Forgot password?</a>
-    <div class='portfolio'>
-        <a href="portfolio" style="color:white;"><h2>Portfolio</h2></a>
-    </div>
+    <a class="lf--forgot" href="https://www.google.com/search?q=how+to+remember+password&oq=how+to+remember+password&aqs=chrome..69i57j0i512l7j0i22i30l2.8985j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Forgot password?</a> 
 </form>
-<div class="ani">
-<a href="anime girls" style="color:white;"><h3>Anime girls<h3></a>
-</div>
 <script>
     const data = {name: "tima", password: "555"}
 
