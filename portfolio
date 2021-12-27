@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Lunatik</title>
-<link rel="icon" href="https://i.pinimg.com/280x280_RS/5c/6a/bc/5c6abc1b783f157b53f642e12b7fa32c.jpg">
+<link rel="icon" href="https://images3.alphacoders.com/764/764983.jpg">
 <meta name="theme-color" content="#292b2c">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +15,9 @@
 <style>
 @import 'https://fonts.googleapis.com/css?family=Press+Start+2P';*{font-family:'press start 2p',Roboto,sans-serif}
 @-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+ 
 
-
-body{ background-image: url('https://images3.alphacoders.com/764/764983.jpg');
+body{ background-image: url('https://s2.best-wallpaper.net/wallpaper/2880x1800/1809/Your-Name-beautiful-sky-meteor-anime_2880x1800.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -58,7 +58,12 @@ font-size:20px;
     position: absolute;
     bottom: -10px;
 }
-
+.pains{
+    position:absolute;
+    color: white;
+    top: 25px;
+    left: 15px;
+}
 </style>
 <body class="fadeIn">
 <div class="g-o">
@@ -69,6 +74,10 @@ font-size:20px;
    
 </div>
 </div>
+</div>
+<div class = "pains">
+<a href="index.php" style="color: white;">Login</a> |
+<a href="anime girls" style="color: white;">Anime gallery</a>
 </div>
 <div class="console-emulating" style="color:white">
 <h1>My social media:</h1>
