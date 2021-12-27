@@ -17,7 +17,7 @@
 @-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
  
 
-body{ background-image: url('https://s2.best-wallpaper.net/wallpaper/2880x1800/1809/Your-Name-beautiful-sky-meteor-anime_2880x1800.jpg');
+body{ background-image: url('https://images3.alphacoders.com/764/764983.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
